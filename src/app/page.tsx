@@ -52,7 +52,7 @@ export default function Home() {
           <AiFillYoutube />
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-20 overflow-hidden">
-          <Image src={deved} layout="fill" objectFit="cover" />
+          <Image src={deved} layout="fill" objectFit="cover" alt="" />
         </div>
       </section>
 
@@ -61,7 +61,7 @@ export default function Home() {
           <h3 className="text-3xl py-1">Services I offer</h3>
           <p className="text-md py-2 leading-8 text-gray-800">
             Since the beginning of the jurney as a freelance designer and
-            Developer , I've done remote work for
+            Developer , I&apos;ve done remote work for
             <span className="text-teal-500"> agencies </span>
             consulted for <span className="text-teal-500"> startup </span>
             and colaborated with talented people to create digital products for
@@ -74,7 +74,13 @@ export default function Home() {
         </div>
         <div className="lg:flex gap-10 lg:mt-10">
           <div className="text-center shadow-lg p-10 rounded-xl py-10">
-            <Image src={design} width={100} height={100} className="mx-auto" />
+            <Image
+              src={design}
+              width={100}
+              height={100}
+              className="mx-auto"
+              alt=""
+            />
             <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2">
               Creating elegants designs suited for your needs following core
@@ -86,7 +92,13 @@ export default function Home() {
             <p className="text-gray-800 py-1">Figma</p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl py-10">
-            <Image src={code} width={100} height={100} className="mx-auto" />
+            <Image
+              src={code}
+              width={100}
+              height={100}
+              className="mx-auto"
+              alt=""
+            />
             <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2">
               Creating elegants designs suited for your needs following core
@@ -103,6 +115,7 @@ export default function Home() {
               width={100}
               height={100}
               className="mx-auto"
+              alt=""
             />
             <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2">
@@ -122,7 +135,7 @@ export default function Home() {
           <h3 className="text-3xl py-1">Portofolio</h3>
           <p className="text-md py-2 leading-8 text-gray-800">
             Since the beginning of the jurney as a freelance designer and
-            Developer , I've done remote work for
+            Developer , I&apos;ve done remote work for
             <span className="text-teal-500"> agencies </span>
             consulted for <span className="text-teal-500"> startup </span>
             and colaborated with talented people to create digital products for
@@ -138,54 +151,60 @@ export default function Home() {
             <Image
               src={web1}
               className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
+              width={undefined}
+              height={undefined}
               layout="responsive"
+              alt=""
             />
           </div>
           <div className="basis-1/3 flex-1">
             <Image
               src={web2}
               className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
+              width={undefined}
+              height={undefined}
               layout="responsive"
+              alt=""
             />
           </div>
           <div className="basis-1/3 flex-1">
             <Image
               src={web3}
               className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
+              width={undefined}
+              height={undefined}
               layout="responsive"
+              alt=""
             />
           </div>
           <div className="basis-1/3 flex-1">
             <Image
               src={web4}
               className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
+              width={undefined}
+              height={undefined}
               layout="responsive"
+              alt=""
             />
           </div>
           <div className="basis-1/3 flex-1">
             <Image
               src={web5}
               className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
+              width={undefined}
+              height={undefined}
               layout="responsive"
+              alt=""
             />
           </div>
           <div className="basis-1/3 flex-1">
             <Image
               src={web6}
               className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
+              width={undefined}
+              height={undefined}
               layout="responsive"
+              alt=""
             />
           </div>
         </div>
